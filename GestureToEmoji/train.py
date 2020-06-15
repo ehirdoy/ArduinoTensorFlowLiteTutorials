@@ -51,9 +51,9 @@ for gesture_index in range(NUM_GESTURES):
           (df['aX'][index] + 4) / 8,
           (df['aY'][index] + 4) / 8,
           (df['aZ'][index] + 4) / 8,
-          (df['gX'][index] + 2000) / 4000,
-          (df['gY'][index] + 2000) / 4000,
-          (df['gZ'][index] + 2000) / 4000
+          (df['gX'][index] + 2000) / 4000 * 0,
+          (df['gY'][index] + 2000) / 4000 * 0,
+          (df['gZ'][index] + 2000) / 4000 * 0
       ]
 
     inputs.append(tensor)
