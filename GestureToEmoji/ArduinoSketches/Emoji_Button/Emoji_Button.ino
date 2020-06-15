@@ -20,7 +20,7 @@
 
 // Select an OS:
 //#define MACOS // You'll need to enable and select the unicode keyboard: System Preferences -> Input Sources -> + -> Others -> Unicode Hex Input
-//#define LINUX
+#define LINUX
 
 #if !defined(MACOS) && !defined(LINUX)
 #error "Please select an OS!"
